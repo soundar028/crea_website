@@ -294,6 +294,68 @@
     display: block;
 }
 
+.img-fluid-borehole {
+    width: 100%;
+    height: 200px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-trialpit {
+    width: 100%;
+    height: 200px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-pile {
+    width: 100%;
+    height: 300px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-cbr {
+    width: 100%;
+    height: 200px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-compaction-test {
+    width: 100%;
+    height: 220px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-consolidation-test {
+    width: 100%;
+    height: 220px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+
+.img-fluid-field-density-test {
+    width: 100%;
+    height: 300px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-analysis_of_soil {
+    width: 100%;
+    height: 200px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+}
+
+.img-fluid-other-field-test{
+    width: 100%;
+    height: 200px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */ 
+}
+
 .footer-shape::before {
     position: absolute;
     content: "";
