@@ -273,6 +273,13 @@
     background: #FFFFFF;
 }
 
+
+.parent-container-soil {
+    width: 100%;
+    height: 180px; /* Set the desired fixed height */
+    overflow: hidden; /* This is optional but can prevent image overflow */
+    background: #FFFFFF;
+}
 .img-fluid-approvals {
     width: 100%;
     height: 100%; /* Ensures the image takes up the full height of the parent container */
@@ -296,42 +303,42 @@
 
 .img-fluid-borehole {
     width: 100%;
-    height: 200px; 
+    height: 230px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
 
 .img-fluid-trialpit {
     width: 100%;
-    height: 200px; 
+    height: 220px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
 
 .img-fluid-pile {
     width: 100%;
-    height: 300px; 
+    height: 240px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
 
 .img-fluid-cbr {
     width: 100%;
-    height: 200px; 
+    height: 180px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
 
 .img-fluid-compaction-test {
     width: 100%;
-    height: 220px; 
+    height: 180px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
 
 .img-fluid-consolidation-test {
     width: 100%;
-    height: 220px; 
+    height: 180px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
@@ -339,20 +346,27 @@
 
 .img-fluid-field-density-test {
     width: 100%;
-    height: 300px; 
+    height: 250px; 
+    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+  
+}
+
+.img-fluid-field-density-test-1 {
+    width: 100%;
+    height: 220px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
   
 }
 
 .img-fluid-analysis_of_soil {
     width: 100%;
-    height: 200px; 
+    height: 180px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
 }
 
 .img-fluid-other-field-test{
     width: 100%;
-    height: 200px; 
+    height: 195px; 
     object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */ 
 }
 
