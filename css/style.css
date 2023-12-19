@@ -391,7 +391,7 @@
 .customized-card-body{
     display: flex;
     flex-direction: column;
-    height: 110%;
+    height: 100%;
     
 }
 .card-text{
@@ -484,4 +484,18 @@
 .view-margin-align-valuation{
     margin-right: -18px;
     margin-left: -18px;
+}
+
+.view-card-align-contact-left{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: -5px;
+}
+
+.view-card-align-contact-right{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: -5px;
+    margin-right: auto;
 }
