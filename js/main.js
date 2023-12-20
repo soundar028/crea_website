@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    
+
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
@@ -26,8 +26,8 @@
     $('.time').datetimepicker({
         format: 'LT'
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -37,7 +37,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -51,7 +51,7 @@
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
 
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
+        portfolioIsotope.isotope({ filter: $(this).data('filter') });
     });
 
 
@@ -63,6 +63,18 @@
         dots: false,
         loop: true,
     });
-    
+
+    // Added by Giriprasath 
+    // As per the requirements
+
+    // what's app fade in and fade out
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.whatsapp-icon-fade').fadeIn('slow');
+        } else {
+            $('.whatsapp-icon-fade').fadeOut('slow');
+        }
+    });
+
 })(jQuery);
 

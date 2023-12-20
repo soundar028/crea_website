@@ -118,7 +118,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link  {
+    .navbar-dark .navbar-nav .nav-link {
         margin-left: 0;
         padding: 10px 0;
     }
@@ -241,6 +241,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial,
     .contact-form {
         margin-left: -90px;
@@ -261,43 +262,56 @@
 
 .parent-container {
     width: 100%;
-    height: 200px; /* Set the desired fixed height */
-    overflow: hidden; /* This is optional but can prevent image overflow */
+    height: 200px;
+    /* Set the desired fixed height */
+    overflow: hidden;
+    /* This is optional but can prevent image overflow */
     background: #FFFFFF;
 }
 
 .parent-container-structure {
     width: 100%;
-    height: 400px; /* Set the desired fixed height */
-    overflow: hidden; /* This is optional but can prevent image overflow */
+    height: 400px;
+    /* Set the desired fixed height */
+    overflow: hidden;
+    /* This is optional but can prevent image overflow */
     background: #FFFFFF;
 }
 
 
 .parent-container-soil {
     width: 100%;
-    height: 180px; /* Set the desired fixed height */
-    overflow: hidden; /* This is optional but can prevent image overflow */
+    height: 180px;
+    /* Set the desired fixed height */
+    overflow: hidden;
+    /* This is optional but can prevent image overflow */
     background: #FFFFFF;
 }
+
 .img-fluid-approvals {
     width: 100%;
-    height: 100%; /* Ensures the image takes up the full height of the parent container */
-    object-fit: none; /* Maintains the aspect ratio while covering the entire container */
+    height: 100%;
+    /* Ensures the image takes up the full height of the parent container */
+    object-fit: none;
+    /* Maintains the aspect ratio while covering the entire container */
     display: block;
 }
 
 .img-fluid-surveys {
     width: 100%;
-    height: 100%; /* Ensures the image takes up the full height of the parent container */
-    object-fit: cover; /* Maintains the aspect ratio while covering the entire container */
+    height: 100%;
+    /* Ensures the image takes up the full height of the parent container */
+    object-fit: cover;
+    /* Maintains the aspect ratio while covering the entire container */
     display: block;
 }
 
 .img-fluid-noc {
     width: 100%;
-    height: 100%; /* Ensures the image takes up the full height of the parent container */
-    object-fit: fill; /* Maintains the aspect ratio while covering the entire container */
+    height: 100%;
+    /* Ensures the image takes up the full height of the parent container */
+    object-fit: fill;
+    /* Maintains the aspect ratio while covering the entire container */
     display: block;
 }
 
@@ -316,186 +330,242 @@
 
 .img-fluid-borehole {
     width: 100%;
-    height: 230px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 230px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-trialpit {
     width: 100%;
-    height: 220px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 220px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-pile {
     width: 100%;
-    height: 240px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 240px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-cbr {
     width: 100%;
-    height: 180px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 180px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-compaction-test {
     width: 100%;
-    height: 180px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 180px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-consolidation-test {
     width: 100%;
-    height: 180px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 180px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 
 .img-fluid-field-density-test {
     width: 100%;
-    height: 250px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 250px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-field-density-test-1 {
     width: 100%;
-    height: 220px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
-  
+    height: 220px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+
 }
 
 .img-fluid-analysis_of_soil {
     width: 100%;
-    height: 180px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */
+    height: 180px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
 }
 
-.img-fluid-other-field-test{
+.img-fluid-other-field-test {
     width: 100%;
-    height: 195px; 
-    object-fit: contain; /* Maintains the aspect ratio, but is resized to fit within the given dimension */ 
+    height: 195px;
+    object-fit: contain;
+    /* Maintains the aspect ratio, but is resized to fit within the given dimension */
 }
 
-.customized-card{
+.customized-card {
     height: 100%;
 
 }
 
-.customized-card-body{
+.customized-card-body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    
+
 }
-.card-text{
+
+.card-text {
     flex-grow: 1;
     padding: 5%;
 }
 
-.customized-card-approvals{
+.customized-card-approvals {
     height: 100%;
 
 }
-.customized-card-body-approvals{
+
+.customized-card-body-approvals {
     display: flex;
     flex-direction: column;
     height: 60%;
-    
+
 }
 
- .img-fit {
-    aspect-ratio: 1/1; 
+.img-fit {
+    aspect-ratio: 1/1;
 }
 
-.linkcolor{
-    color:rgba(255,255,255,0.5) ;
+.linkcolor {
+    color: rgba(255, 255, 255, 0.5);
 }
-.linkcolor:hover{
-    color:var(--primary);
+
+.linkcolor:hover {
+    color: var(--primary);
 }
 
 .img-fit-approvals {
     width: 100%;
-    height: 300px; /* Set the desired fixed height */
-    overflow: hidden; /* This is optional but can prevent image overflow */
+    height: 300px;
+    /* Set the desired fixed height */
+    overflow: hidden;
+    /* This is optional but can prevent image overflow */
     background: #FFFFFF;
 }
-.img-pad{
+
+.img-pad {
     padding-bottom: 5%;
 }
-.pad-text{
+
+.pad-text {
     padding-bottom: 5%;
     padding-top: 2%;
 
 }
-.pad-text-heading{
+
+.pad-text-heading {
     padding-bottom: 2%;
     padding-top: 2%;
 
 }
-.pad-text-heading-approvals{
+
+.pad-text-heading-approvals {
     padding-bottom: 0%;
     padding-top: 5%;
 
 }
-.pad-text-approvals-1{
+
+.pad-text-approvals-1 {
     padding-bottom: 1.5%;
     padding-top: 0%;
 
 }
-.pad-text-approvals{
+
+.pad-text-approvals {
     padding-bottom: 5%;
     padding-top: 1.5%;
 
 }
 
-.view-margin-align{
+.view-margin-align {
     margin-right: -25px;
     margin-left: -25px;
 }
 
-.view-margin-align-approvals{
+.view-margin-align-approvals {
     margin-right: -20px;
     margin-left: -20px;
 }
 
-.view-margin-align-surveying{
+.view-margin-align-surveying {
     margin-right: -18px;
     margin-left: -18px;
 }
 
-.view-margin-align-soil{
+.view-margin-align-soil {
     margin-right: -15px;
     margin-left: -15px;
 }
 
-.view-margin-align-noc{
+.view-margin-align-noc {
     margin-right: -15px;
     margin-left: -15px;
 }
 
-.view-margin-align-valuation{
+.view-margin-align-valuation {
     margin-right: -18px;
     margin-left: -18px;
 }
 
-.view-card-align-contact-left{
-    margin-top: 20px;
-    margin-bottom: 100px;
+.view-margin-align-contact {
+    margin-right: -18px;
+    margin-left: -18px;
+}
+
+/* .view-card-align-contact-left {
     margin-left: auto;
-    margin-right: -5px;
+    margin-right: -15px;
 }
 
-.view-card-align-contact-right{
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left: -5px;
+.view-card-align-contact-right {
+    margin-left: -15px;
     margin-right: auto;
+} */
+
+.whatsapp-icon-fade {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    margin-left: -22px;
+    margin-right: -22px;
+    margin-bottom: 90px;
+    border-radius: 0;
+    z-index: 99;
+}
+
+.btn-lg-square-whatsapp {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    /* animation: shake 0.5s;
+
+    @keyframes shake {
+   0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+    } */
 }
